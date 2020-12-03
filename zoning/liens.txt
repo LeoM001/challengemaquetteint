@@ -1,0 +1,2 @@
+https://developers.google.com/speed/pagespeed/insights/?hl=fr&url=http%3A%2F%2Fsaison-4.ruralwebfactory.fr%2FMOUGIN%2520L%25C3%25A9o%2FInterface%2520utilisateur%2FInterface.html&tab=mobile
+https://validator.w3.org/nu/?doc=http%3A%2F%2Fsaison-4.ruralwebfactory.fr%2FMOUGIN%2520L%25c3%25a9o%2FInterface%2520utilisateur%2FInterface.html

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="Interface.css" media=screen />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Interface Utilisateur</title>
+</head>
+
+<body>
+<!--Header contenant les réseaux sociaux en haut à doite-->
+    <header class="boxheader">
+        <div id="réseau1"></div>
+        <div id="réseau2"></div>
+    </header>
+<!--la barre de navigation avec le logo à gauche-->
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div style="padding-left:16px">
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+<!--les différentes sections-->
+    <section>
+        <div class="boxsection1">Ceci est la section 1</div>
+        <div class="boxsection2">
+            <fieldset>
+                    <legend>Ceci est un titre</legend>
+                <div id="logo1"></div>
+                <div id="logo2"></div>
+                <div id="logo3"></div>
+                <div id="logo4"></div>
+            </fieldset>
+        </div>
+        <div class="boxsection3">Ceci est la section 2</div>
+    </section>
+<!--Le footer-->
+    <footer>
+        <div class="boxfooter">Ceci est le footer</div>
+    </footer>
+
+</body>
+
+</html>

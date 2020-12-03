@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="Interface.css" media=screen />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Interface Utilisateur</title>
+</head>
+
+<body>
+<!--Header contenant les réseaux sociaux en haut à doite-->
+    <header>
+        <p id="text1">Vous avez un projet ? &emsp;</p><p id="text2">contact@xxxxxxxx.fr &emsp;</p>
+        <img id="réseau1" src="RESSOURCES/bt_fb.png" alt="">
+        <img id="réseau2" src="RESSOURCES/bt_tw.png" alt="">
+    </header>
+<!--la barre de navigation avec le logo à gauche-->
+        <img id="logo" src="RESSOURCES/Logo_TV_2015.png" alt="">
+        <div class="topnav" id="myTopnav">
+            <a href="#home"></a>
+            <a href="#news">Agence Web</a>
+            <a href="#news">Création de site</a>
+            <a href="#contact">Réferencement</a>
+            <a href="#about">Webmastering et Maintenance</a>
+            <a href="#about">Nos références</a>
+            <a href="#about">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          
+          <div style="padding-left:16px">
+          </div>
+          
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+<!--les différentes sections-->
+    <section>
+        <div class="boxsection1">
+            <h1>Agence de communication digitale<br />Développons votre buisness digital</h1>
+            <div class="textsection1">
+                <p id="texttitre3">DEMARQUEZ VOUS !</p><p id="text3">Privilégiez le design sur mesure<br/>pour vos sites e-commerce</p>
+                <br />
+                <p id="texttitre4">SOLUTIONS CMS, SOYEZ LIBRE !</p><p id="text4">Open Source of course!</p>
+            </div>
+            <div class="logossection1">
+                <img src="RESSOURCES/logosites.png" alt="">
+            </div>
+        </div>
+
+        <div class="boxsection2">
+            <div class="zoneampoule">
+                <div class="logosection2">
+                    <img src="RESSOURCES/1.homepage/logos_contenu/1.icon_lamp.png" alt="">
+                </div>
+                <div class="textsection2">
+                    <p id="texttitre5">VOS PROJETS WEB</p><p id="text5">SUR MESURE ET <strong>100% FRANCAIS !</strong></p>
+                </div>
+            </div>
+
+            <fieldset>
+                    <legend>Notre expérience au service de vos projets web</legend>
+                <div class="logofieldsetp1">
+                    <img class="logofieldset" src="RESSOURCES/logofieldset1.PNG" alt="">
+                    <h5 class="h5">HEBERGEMENT</h5><p class="textfieldset">Notre savoir-faire en hébergement nous permet de conseiller nos clients et concevoir des projets à fort trafic.</p>
+                </div>
+                <div class="logofieldsetp1">
+                    <img class="logofieldset" src="RESSOURCES/logofieldset2.PNG" alt="">
+                    <h5 class="h5">DEVELOPPEMENT WEB</h5><p class="textfieldset">Méthode, rigueur et réactivité pour réaliser et suivre votre projet de site internet.</p>
+                </div>
+                <div class="logofieldsetp1">
+                    <img class="logofieldset" src="RESSOURCES/logofieldset3.PNG" alt="">
+                    <h5 class="h5">CREATION GRAPHIQUE</h5><p class="textfieldset">Création on line ou off line, nous réalisons les projets graphiques qui reflètent votre image.</p>
+                </div>
+                <div class="logofieldsetp1">
+                    <img class="logofieldset" src="RESSOURCES/logofieldset4.PNG" alt="">
+                    <h5 class="h5">WEBMARKETING</h5><p class="textfieldset">Rentabilisez votre site web grâce au référencement naturel, à l'emailing ou d'autres actions de création de trafic.</p>
+                </div>
+            </fieldset>
+        </div>
+        <div class="boxsection3">
+            <div class="textsection3-1">
+                <h5 id="h5sama">AGENCE WEB XXX</h5><p id="longtext1">Agence de communication digitale.<br/><br/>contact@xxxxx.fr<br/><br/>Contact webdesign<br/>06 81 78 50 86<br/><br/>Contact programmation<br/>06 00 00 00 00</p>
+            </div>
+            <div class="textsection3-2">
+                <h5 id="h5sama2">LA CREATION DE SITE INTERNET</h5><p id="longtext2">Gestion de projet<br/>Webdesign<br/>Identité visuelle<br/>Développement<br/>Intégration<br/>Hébergement<br/>Webmarketing<br/>Réferencement naturel<br/>E-mailing<br/>Infogérance</p>
+            </div>
+            <div class="textsection3-3">
+                <h5 id="h5sama3">DOMAINES D'ACTIVITE</h5><p id="longtext3">Création de site e-commerce<br/>Création de site institutionnel<br/>Création de site de marque<br/>Création de site vitrine<br/>Création de site catalogue<br/>Refonte de site<br/>Responsive design<br/>Création de site avec CMS<br/>Paiement en ligne<br/>Interfacage</p>
+            </div>
+        </div>
+    </section>
+<!--Le footer-->
+    <footer>
+        <div class="boxfooter">
+            <p class="textfooter">© 2016 Agence web xxx        |       Devis en ligne      |       contact       |     Mentions légales      |         Conditions générales d'utilisation         |         Politique de confidentialité </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
